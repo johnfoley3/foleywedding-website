@@ -5,18 +5,88 @@
     <title>Foley Wedding 2017</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/foleywedding.css">
 </head>
-<body>
-<p>Welcome to the site!</p>
+<body data-spy="scroll" data-target="#navbar">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="nav-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="nav-brand" href="/">Foley Wedding 2017</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#registry">Registry</a></li>
+                <li><a href="/pictures">Pictures</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <section>
+        <a class="nav-anchor" id="home"></a>
+        <div class="jumbotron">
+            <h1>Foley Wedding 2017</h1>
+            <p>John and Kelsie are excited you could make it here, and hope you find all the information
+                that you are looking for!</p>
+        </div>
+    </section>
+
+    <section>
+        <a id="location" class="nav-anchor"></a>
+        <h2>Location</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.264625796483!2d-90.21586536408088!3d38.60060749496372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b3907626ad29%3A0x7ad4751f5abcef57!2sCapitalist+Pig+at+Mad+Art+Gallery!5e0!3m2!1sen!2sus!4v1465768125661&key=AIzaSyA3OFduMFB7JQEGDMgg0TIEco2mxH4Pq44"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <a class="nav-anchor" id="registry"></a>
+        <h2>Registry</h2>
+        <div class="panel panel-default">
+            <div class="panel-heading">Crate and Barrel</div>
+            <div class="panel-body">
+                You can find the <a
+                    href="http://www.crateandbarrel.com/gift-registry/kelsie-howle-and-john-foley/r5512537">registry
+                here.</a>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Amazon</div>
+            <div class="panel-body">
+                You can find the <a
+                    href="https://www.amazon.com/wedding/kelsie-howle-john-foley-st-louis-june-2017/registry/277504R72SYAG">registry
+                here.</a>
+            </div>
+        </div>
+    </section>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+<script src="js/app.js"></script>
 
 </body>
 </html>

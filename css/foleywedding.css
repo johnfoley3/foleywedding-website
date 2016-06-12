@@ -1,0 +1,18 @@
+body {
+  padding-top: 90px;
+  min-height: 2000px;
+  position: relative;
+}
+.nav-anchor {
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+.nav-anchor:before {
+  content: "";
+  display: block;
+  height: 15px;
+/* fixed header height*/
+  margin: -15px 0 0;
+/* negative fixed header height */
+}
