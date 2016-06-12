@@ -2,3 +2,15 @@ body
   padding-top: 70px
   min-height: 2000px
   position: relative
+
+.nav-anchor
+  position: relative;
+  top: -60px
+  visibility: hidden
+
+  &:before {
+    content:"";
+    display:block;
+    height:15px; /* fixed header height*/
+    margin:-15px 0 0; /* negative fixed header height */
+  }

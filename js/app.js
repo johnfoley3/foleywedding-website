@@ -5,10 +5,7 @@
     });
 
     function initScrollspy(bodyEle) {
-        var navEle = $('nav');
-
         bodyEle.scrollspy({
-            offset: navEle.height(),
             target: '#navbar'
         });
     }
